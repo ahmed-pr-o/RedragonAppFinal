@@ -1,0 +1,61 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center"
+        android:background="@color/red">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/red" />
+
+    <EditText
+        android:id="@+id/te_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="gmail"
+        android:textColorHint="@color/Transparentwhite"
+        android:textColor="@color/white"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="16dp"
+        />
+
+    <EditText
+        android:id="@+id/te_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:textColorHint="@color/Transparentwhite"
+        android:textColor="@color/white"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login" />
+    <Button
+        android:id="@+id/btn_signup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="sign up"
+        />
+    <CheckBox
+        android:id="@+id/checkbox_remember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_gravity="start"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>
+
