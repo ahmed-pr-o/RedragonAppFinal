@@ -12,4 +12,6 @@
 7. Payment page - شاشة الدفع
 رابط فيديو اليوتيوب :
 https://youtu.be/OrILr8Y8oCw
+تجربة البرنامج 
+https://youtu.be/ihoHzdpJax4
 
