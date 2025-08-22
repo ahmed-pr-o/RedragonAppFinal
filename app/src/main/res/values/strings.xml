@@ -9,4 +9,7 @@
     <string name="remember_me">Remember me</string>
     <string name="username">Username</string>
     <string name="create_your_account">Create Your Account</string>
+    <string name="sign_up">sign up</string>
+    <string name="login">login</string>
+    <string name="gmail">gmail</string>
 </resources>

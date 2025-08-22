@@ -1,34 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="24dp"
     android:background="@color/red">
 
-    <TextView
-        android:id="@+id/settings_title"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/main"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/settings"
-        android:textColor="@android:color/white"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="40dp" />
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp" />
 
         <Switch
             android:id="@+id/dark_mode_switch"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/dark_mode"
             android:textColor="@android:color/white"
-            android:layout_below="@id/settings_title"
-            android:layout_marginTop="40dp"
-            android:layout_centerHorizontal="true"
-            tools:ignore="UseSwitchCompatOrMaterialXml"
-            />
+            android:layout_marginTop="32dp"/>
 
-    </RelativeLayout>
+        <Switch
+            android:id="@+id/notifications_switch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enable Notifications"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="save"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/cin"
+            android:layout_marginTop="24dp"/>
+
+    </LinearLayout>
+</ScrollView>
+

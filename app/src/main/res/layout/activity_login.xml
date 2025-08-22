@@ -19,7 +19,7 @@
         android:id="@+id/te_gmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="gmail"
+        android:hint="@string/gmail"
         android:textColorHint="@color/Transparentwhite"
         android:textColor="@color/white"
         android:inputType="textEmailAddress"
@@ -30,7 +30,7 @@
         android:id="@+id/te_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
+        android:hint="@string/password"
         android:textColorHint="@color/Transparentwhite"
         android:textColor="@color/white"
         android:inputType="textPassword"
@@ -40,21 +40,26 @@
         android:id="@+id/btn_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="login" />
+        android:text="@string/login"
+        android:backgroundTint="@color/cin"
+        />
     <Button
         android:id="@+id/btn_signup"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="sign up"
+        android:text="@string/sign_up"
+        android:backgroundTint="@color/cin"
+
         />
     <CheckBox
         android:id="@+id/checkbox_remember"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Remember me"
+        android:text="@string/remember_me"
         android:layout_gravity="start"
         android:layout_marginTop="16dp"
         android:textColor="@color/white"
+
         />
 
 </LinearLayout>
