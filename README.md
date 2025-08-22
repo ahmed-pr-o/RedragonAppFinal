@@ -1,3 +1,4 @@
+المشروع النهائي_أندرويد ستديو
 اسم الطالب : أحمد ميسرة صيدم 
 اسم التطبيق : REDRAGONAPP
 فكرة التطبيق : تطبيق بسيط كمتجر خاص بشركة Redragon لسماعات 
@@ -7,5 +8,8 @@
 3. Sign Up Screen – شاشة إنشاء حساب.
 4. Home Screen – شاشة الترحيب الرئيسية بعد الدخول.
 5. Settings Screen – شاشة الإعدادات .
-رابط فيديو اليوتيوب : https://youtu.be/D46PRyYsDIY
+6. Shopping cart - شاشة سلة الشراء
+7. Payment page - شاشة الدفع
+رابط فيديو اليوتيوب :
+https://youtu.be/OrILr8Y8oCw
 
